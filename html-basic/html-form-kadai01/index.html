@@ -12,29 +12,29 @@
 	</tr>
 	<tr>
 		<td>名前</td>
-		<td><input type="text" value="テキスト入力欄"></td>
+		<td><input type="text" name="fullname" value="テキスト入力欄"></td>
 	</tr>
 	<tr>
 		<td>パスワード</td>
-		<td><input type="password" value="********"></td>
+		<td><input type="password" name="password" value="********"></td>
 	</tr>
 	<tr>
 		<td>メッセージ</td>
-		<td><textarea cols="30" rows="10">複数行のテキスト入力欄</textarea></td>
+		<td><textarea cols="30" rows="5" name="message">複数行のテキスト入力欄</textarea></td>
 	</tr>
 	<tr>
 	 	<td>性別</td>
 	 	<td>
-	 		<input type="radio" name="sex">男性
-	 		<input type="radio" name="sex">女性
+	 		<input type="radio" name="sex" value="m">男性
+	 		<input type="radio" name="sex" value="f">女性
 	 	</td>
 	 </tr>
 	 <tr>
 	 	<td>趣味</td>
 	 	<td>
-	 		<input type="checkbox" name="hobby">スポーツ
-	 		<input type="checkbox" name="hobby">読書
-	 		<input type="checkbox" name="hobby">なし
+	 		<input type="checkbox" name="hobby" value="1">スポーツ
+	 		<input type="checkbox" name="hobby" value="2">読書
+	 		<input type="checkbox" name="hobby" value="3">なし
 	 	</td>
 	 </tr>
 	 <tr>
@@ -61,11 +61,11 @@
 	 </tr>
 	 <tr>
 	 	<td>ファイル選択</td>
-	 	<td><input type="file"></td>
+	 	<td><input type="file" name="attach_file"></td>
 	 </tr>
 	 <tr>
 	 	<td>隠しデータ</td>
-	 	<td><input type="hidden">（画面上には表示されません）</td>
+	 	<td><input type="hidden" name="user_id" value="terakoya">（画面上には表示されません）</td>
 	 </tr>
 	 <tr>
 	 	<td>ボタン</td>
